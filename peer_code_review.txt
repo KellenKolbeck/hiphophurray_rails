@@ -1,0 +1,28 @@
+Is the Github documentation - commits and README - thorough and descriptive?
+  No readme file. Pretty good commits, but some large gaps of production missing, especially towards the beginning.
+
+Is there good spec coverage?
+  Good spec coverage, especially unit testing and most of the integration specs. However 2 integration specs are not passing.
+
+Do all specs pass?
+  13/15 specs are passing.
+
+Is the application logic clear and easy to navigate?
+  Application logic is clear and fairly easy to navigate.
+
+Is the site user-friendly?
+  Once information is in the database the app seems user-friendly. However, the index page is not very user friendly. Without pre-seeded data, it is not clear what to do on the home page.
+  Home page should have add songs button to help clear up user interface.
+
+Are there opportunities for refactoring?
+  index page could be made more user friendly by cleaning up the interface,making buttons stand out on home page for adding genres and songs. The voting system could be moved to the Model and made into a class as opposed to being written in the controller logic.
+
+What features stand out?
+  The voting system for individual songs stands out on the genre page.
+
+What features could be improved?
+  Home page interface and song addition could be made more user-friendly. Ability to know where/how to add songs on the index page would be a good addition.
+
+Do you have any additional constructive criticism or positive feedback to share?
+  good site, clean minimal design and the functionality is all great. The index page is a bit unintuitive. Good job overall.
+  
