@@ -40,7 +40,8 @@ class SongsController < ApplicationController
       end
     end
   end
-
+  # The voting system could be added to a scope or class method, as opposed to having it in the controller logic.
+  # also, this system could be refactored a bit.
   def destroy
     @subgenres = Subgenre.find(params[:subgenre_id])
     @songs = @subgenres.songs.find(params[:id])
